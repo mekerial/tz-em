@@ -1,5 +1,5 @@
 import { TicketModel } from '../db/tickets/ticket.model';
-import { TicketStatus } from '../types/ticketStatus';
+import { TicketStatus } from '../types/tickets/ticketStatus';
 
 export class TicketService {
     static async createTicket(data: { subject: string; description: string }) {

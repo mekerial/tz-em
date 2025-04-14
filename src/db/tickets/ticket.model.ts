@@ -1,6 +1,6 @@
 import mongoose, { Schema, Document } from 'mongoose';
-import { TicketStatus } from '../../types/ticketStatus';
-import { ITicket } from '../../types/ticketDocument';
+import { TicketStatus } from '../../types/tickets/ticketStatus';
+import { ITicket } from '../../types/tickets/ticketDocument';
 
 const TicketSchema: Schema<ITicket> = new mongoose.Schema({
     subject: { type: String, required: true },
